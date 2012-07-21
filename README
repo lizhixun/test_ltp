@@ -1,2 +1,5 @@
 This is a readme file. In this file, you can get the information about how to use the ltp API.
-For the APIs with Count*, 
+For the APIs with *DOM*, it means some operations to DOM tree.
+For the APIs with Count*, the functions count the number of lines or word in this document. The functions will return the numbers of line or word when success or return 0 if failed.
+For the APIs with Get*, the functions get some information from DOM tree.
+
