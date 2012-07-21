@@ -10,7 +10,7 @@ int main()
 	SplitSentence(); // 分句
 	CRFWordSeg();  // 分词
 	PosTag();  // 为词语打上标签
-	SaveDOM("testDOM.xml");
+	SaveDOM("testDOM.xml"); // 保存在内存的DOM树
 
 	std::cout<<"sentNum is: "<<CountSentenceInDocument()<<std::endl;
 	std::cout<<"Word num is: "<<CountWordInDocument()<<std::endl;
@@ -20,6 +20,7 @@ int main()
 	for(i = 0; i < CountSentenceInDocument(); ++i)
 		std::cout<<GetSentence(i)<<std::endl;
 
+	// 退出程序
     std::cout<<"Press ANY key to Exit"<<std::endl;
 	getchar();
 	system("exit");
